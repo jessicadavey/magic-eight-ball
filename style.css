@@ -1,0 +1,144 @@
+body {
+    background: #ffffff;
+}
+/*Text*/
+
+h1 {
+    width: 465px;
+    margin: auto;
+    padding: 10px;
+    color: #000000;
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 72px;
+    text-align: center;  
+}
+
+#asked {
+    display: none;
+    width: 600px;
+    height: 75px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 0px;
+
+
+}
+
+
+
+
+/* Magic 8 Ball Image */
+#magic-8-ball {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+
+}
+
+#ball-outer {
+    background: #000000;
+    margin: auto;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;  
+    z-index: 0;
+}
+
+#ball-inner {
+    position: absolute;
+    bottom: 120px;
+    left: 120px;
+    margin: auto;
+    background: #FFFFFF;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    z-index: 3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    text-align: center;
+    color: #000000;
+    line-height: 1.7;
+}
+
+#triangle {
+    display: none;
+    position: absolute;
+    bottom: 120px;
+    left: 130px;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid blue;
+    z-index: 2;
+}
+
+#ball-inner2 {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    margin: auto;
+    background: #403939;
+    width: 158px;
+    height: 158px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/*8 Ball Text */
+#response {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 130px;
+    left: 130px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    z-index: 4;
+}
+#answer{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* Buttons */
+
+#ask-button {
+    width: 201px;
+    height: 56px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#again-button {
+    width: 201px;
+    height: 56px;
+    margin: auto;
+    padding-top: 0px;
+}
+.button {
+font-family: 'Roboto', sans-serif;
+font-size: 20px;
+background: #C4C4C4;
+border: none;
+width: 201px;
+height: 56px;
+border-radius: 30px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),  0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+
